@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, button
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border: none;
+}
+
+body {
+    background: #e7f6fa url(../img/bg.png) repeat-x;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetic, sans-serif;
+    font-size: 13px;
+    color: #686867;
+    line-height: 16px;
+}
+
+#wrapper {
+    width: 944px;
+    margin: 0 auto;
+    background: url(../img/bg-wrapper.png) repeat-y;
+}
+
+#top {
+    height: 281px;
+    background: url(../img/bg-top.png) no-repeat;
+    position: relative;
+}
+
+#top #logo {
+    width: 139px;
+    height: 154px;
+    position: absolute;
+    left: 33px;
+    top: 9px;
+}
+
+#top #logo a {
+    display: block;
+    width: 139px;
+    height: 154px;
+    text-indent: -1000em;
+    background: url(../img/logo.png) no-repeat;
+}
+
+#top h1 {
+    width: 527px;
+    height: 63px;
+    background: url(../img/name.png) no-repeat;
+    text-indent: -1000em;
+    position: absolute;
+    left: 76px;
+    top: 131px;
+}
+
+#top h2 {
+    width: 389px;
+    height: 38px;
+    background: url(../img/tagline.png) no-repeat;
+    text-indent: -1000em;
+    position: absolute;
+    left: 307px;
+    top: 44px;
+}
+
+#menu {
+    height: 42px;
+    position: relative;
+    margin: -42px 0 0 0;
+    list-style: none;
+    padding: 0 0 0 160px;
+}
+
+#menu li {
+    float: left;
+    padding: 0;
+}
+
+#menu li a {
+    display: block;
+    height: 42px;
+    text-indent: -1000em;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu li.main a {
+    width: 112px;
+    background-image: url(../img/m-main.png);
+}
+
+#menu li.offer a {
+    width: 57px;
+    background-image: url(../img/m-offer.png);
+}
+
+#menu li.compensations a {
+    width: 204px;
+    background-image: url(../img/m-compensations.png);
+}
+
+#menu li.location a {
+    width: 90px;
+    background-image: url(../img/m-location.png);
+}
+
+#menu li.contact a {
+    width: 70px;
+    background-image: url(../img/m-contact.png);
+}
+
+#menu li.partners a {
+    width: 83px;
+    background-image: url(../img/m-partners.png);
+}
+
+#content {
+    padding: 34px 2px 51px;
+    overflow: hidden;
+}
+
+#content h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #96cd00;
+    border-bottom: dotted 1px #96cd00;
+    padding: 0 0 16px 0;
+    margin: 0 0 59px 0;
+}
+
+#content p {
+    margin: 0 0 14px 0;
+}
+
+#content p.offer {
+    margin: 31px 0;
+}
+
+#content div.column-left {
+    width: 200px;
+    float: left;
+    margin: 0 21px 0 0;
+    padding: 345px 0 0 19px;
+    background: url(../img/rtg.png) no-repeat;
+    color: #302280;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+}
+
+#content div.column-left a.nfz {
+    display: block;
+    width: 156px;
+    height: 60px;
+    background: url(../img/nfz.png) no-repeat;
+    text-indent: -1000em;
+    margin: 22px 10px 0;
+}
+
+#content div.column-middle {
+    overflow: hidden;
+    width: 380px;
+    float: left;
+}
+
+#content div.column-right {
+    overflow: hidden;
+    float: left;
+    margin: 0 0 0 20px;
+    width: 300px;
+}
+
+#content div.column-right ul.promos {
+    list-style: none;
+}
+
+#content div.column-right ul.promos li.accident a {
+    display: block;
+    width: 300px;
+    height: 320px;
+    background: url(../img/accident.png) no-repeat;
+    text-indent: -1000em;
+}
+
+#content div.column-right ul.promos li.promos {
+    margin: 12px 7px 0 17px;
+}
+
+#content div.column-right ul.promos li.promos a {
+    display: block;
+    width: 276px;
+    height: 96px;
+    background: url(../img/promos.png) no-repeat;
+    text-indent: -1000em;
+}
+
+#footer {
+    background: url(../img/footer.png) no-repeat;
+    margin: 0 2px;
+    overflow: hidden;
+    padding: 52px 0 14px 27px;
+    clear: both;
+}
+
+#footer address {
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 13px;
+    padding: 12px 0;
+    margin: 0 113px 0 0;
+    width: 130px;
+}
+
+#footer address a {
+    text-decoration: none;
+    color: #686867;
+}
+
+#footer address.main {
+    background: url(../img/logo-small.png) no-repeat;
+    padding-left: 70px;
+    width: auto;
+}
+
+#footer address.phone a {
+    display: block;
+    margin: 0 0 12px 0;
+}
+
+#footer address.phone em {
+    display: block;
+    float: left;
+    margin: 0 19px 20px 0;
+    font-style: normal;
+}
+
+#footer address.open {
+    margin: -13px 0 0 0;
+    padding: 0;
+}
+
+#footer address.open em {
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    margin: 12px 0 0 0;
+}

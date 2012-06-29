@@ -1,0 +1,42 @@
+#top #logo a {
+    _background-image:  none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/logo.png", sizingMethod="crop");
+}
+
+#top h1 {
+    _background-image:  none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/name.png", sizingMethod="crop");
+}
+
+#top h2 {
+    _background-image:  none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/tagline.png", sizingMethod="crop");
+}
+
+#menu li.main a {
+    background-image: url(../img/m-main.gif);
+}
+
+#menu li.offer a {
+    background-image: url(../img/m-offer.gif);
+}
+
+#menu li.compensations a {
+    background-image: url(../img/m-compensations.gif);
+}
+
+#menu li.location a {
+    background-image: url(../img/m-location.gif);
+}
+
+#menu li.contact a {
+    background-image: url(../img/m-contact.gif);
+}
+
+#menu li.partners a {
+    background-image: url(../img/m-partners.gif);
+}
+
+#content, #footer {
+    zoom: 1;
+}
